@@ -1,0 +1,46 @@
+*{
+    /* border: 2px solid blue; */
+    text-align: center;
+    background-color: rgb(18, 21, 29);
+    color: white;
+}
+
+#city{
+    padding: 10px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+}
+#btn{
+    font-weight: bold;
+    margin-top: 10px; 
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+#result{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin:50px;
+    margin-left: 275px;
+    width: 1000px;
+    height: 600px;
+}
+#heading{
+    width: 50%;
+    margin-left: 100px;
+}
+#values{
+    width: 50%;
+}
+.para{
+    background-color: rgb(75, 154, 239);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
