@@ -1,46 +1,63 @@
 *{
-    /* border: 2px solid blue; */
+    /* border: 2px solid white; */
     text-align: center;
-    background-color: rgb(18, 21, 29);
     color: white;
 }
-
+body{
+    background-color: rgb(18, 21, 29);
+    background-size: cover;
+    background-position: center;
+}
 #city{
-    padding: 10px;
-    width: 400px;
-    border: 1px solid blue;
-    border-radius: 8px;
+    margin:1%;
+    padding: 1%;
+    width: 40%;
+    border: 2px solid blue;
+    border-radius: 10px;
     color: white;
+    background-color: rgb(18, 21, 29);
 }
 #btn{
+    background-color: rgb(18, 21, 29);
     font-weight: bold;
-    margin-top: 10px; 
+    margin: 0.5%; 
     border: 1px solid blue;
     color: blue;
-    border-radius: 10px;
-    height: 50px;
-    width: 100px;
+    border-radius: 25px;
+    height: 2vw;
+    width: 20vw;
+    min-width: 150px;
+    min-height: 35px;
 }
 #result{
     display: flex;
     flex-direction: row;
     border: 2px solid blue;
-    border-radius: 10px;
-    margin:50px;
-    margin-left: 275px;
-    width: 1000px;
-    height: 600px;
+    border-radius: 20px;
+    width: 70%;
+    height: 60%;
+    justify-content: space-around;
+    margin: 1% auto;
 }
+
 #heading{
-    width: 50%;
-    margin-left: 100px;
+    width: 40%;
+    margin: 1%;
+    text-align: center;
 }
 #values{
-    width: 50%;
+    width: 40%;
+    margin: 1%;
+    align-items: center;
+
 }
 .para{
+    padding:0.5%;
     background-color: rgb(75, 154, 239);
-    border-radius: 10px;
-    width: 300px;
-    height: 30px;
+    border-radius: 20px;
+    width: 50%;
+    min-width: fit-content;
+    margin: 15px auto;
+    box-sizing: border-box;
+    text-align: center;
 }
