@@ -32,13 +32,13 @@ document.querySelector('#myform').addEventListener('submit',(e)=>{
             }
         document.querySelector('#result1').innerHTML = `<section id="container">${output}</section>`;
         if(data6==="Clouds"){
-            document.querySelector('body').style.backgroundImage="url('https://t3.ftcdn.net/jpg/07/94/66/96/360_F_794669630_EqED5xzraTaXKgADnKyti75HZgRPy7Ar.jpg')";
+            document.querySelector('body').style.backgroundImage="url('images/clouds.png')";
         }else if(data6==="Rain"){
-            document.querySelector('body').style.backgroundImage="url('https://static.vecteezy.com/system/resources/thumbnails/042/195/728/small/ai-generated-rainy-sky-background-free-photo.jpg')";
+            document.querySelector('body').style.backgroundImage="url('images/raining.png')";
         }else if(data6==="Clear"){
-            document.querySelector('body').style.backgroundImage="url('https://plus.unsplash.com/premium_photo-1733317236155-b0e1a2930f37?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
+            document.querySelector('body').style.backgroundImage="url('images/clear.png')";
         }else if(data6==="Thunderstorm"){
-            document.querySelector('body').style.backgroundImage="url('https://t3.ftcdn.net/jpg/09/18/26/26/360_F_918262612_lyCQDrox2pZm0rPyxUK7PYPWHPjPSS72.jpg')";
+            document.querySelector('body').style.backgroundImage="url('images/thunderstorm.png')";
         }
 
     })
