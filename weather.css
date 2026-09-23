@@ -12,18 +12,18 @@ body {
     background-image: url('images/backgroundimage.png');
     background-color: rgb(18, 21, 29);
     background-size: cover;
-    background-position: fit-content;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
 }
 
 #btn {
-    background-color: rgb(18, 21, 29);
+    background-color: white;
     font-weight: bold;
     margin: 0.5%;
     border: 1px solid darkblue;
-    color: white;
+    color: darkblue;
     border-radius: 25px;
     height: 50px;
     width: 20vw;
@@ -32,14 +32,14 @@ body {
 }
 
 #btn:hover {
-    background-color: blue;
+    background-color: darkblue;
     color: white;
 }
 
 #container {
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    border: 2px solid darkblue;
     border-radius: 20px;
     width: 70%;
     min-height: 200px;
