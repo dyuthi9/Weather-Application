@@ -8,8 +8,8 @@ document.querySelector('#myform').addEventListener('submit',(e)=>{
     .then((info)=>{
         console.log(info.data);
         let data1=info.data.name;
-        let data2=info.data.main.temp;
-        let data3=info.data.main.feels_like;
+        let data2=info.data.main.temp+`°C `;
+        let data3=info.data.main.feels_like+`°C `;
         let data4=info.data.main.humidity;
         let data5=info.data.main.pressure;
         let data6=info.data.weather[0].main;
