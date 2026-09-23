@@ -35,7 +35,7 @@ body{
     border: 2px solid blue;
     border-radius: 20px;
     width: 70%;
-    height: 60%;
+    height: cover;
     justify-content: space-around;
     margin: 1% auto;
 }
@@ -44,10 +44,12 @@ body{
     width: 40%;
     margin: 1%;
     text-align: center;
+    height: fit-content;
 }
 #values{
     width: 40%;
     margin: 1%;
+    height: fit-content;
     align-items: center;
 
 }
@@ -56,7 +58,8 @@ body{
     background-color: rgb(75, 154, 239);
     border-radius: 20px;
     width: 50%;
-    min-width: fit-content;
+    height: 10%;
+    min-width: 110px;
     margin: 15px auto;
     box-sizing: border-box;
     text-align: center;
