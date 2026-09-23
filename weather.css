@@ -1,67 +1,92 @@
-*{
-    /* border: 2px solid white; */
+* {
+    box-sizing: border-box;
     text-align: center;
     color: white;
 }
-body{
+
+body {
     background-color: rgb(18, 21, 29);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
-#city{
-    margin:1%;
-    padding: 1%;
-    width: 40%;
-    border: 2px solid blue;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(18, 21, 29);
-}
-#btn{
+
+#btn {
     background-color: rgb(18, 21, 29);
     font-weight: bold;
-    margin: 0.5%; 
+    margin: 0.5%;
     border: 1px solid blue;
     color: blue;
     border-radius: 25px;
-    height: 2vw;
+    height: 45px;
     width: 20vw;
     min-width: 150px;
-    min-height: 35px;
+    cursor: pointer;
 }
-#result{
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 2px solid blue;
     border-radius: 20px;
     width: 70%;
-    height: cover;
-    justify-content: space-around;
-    margin: 1% auto;
+    min-height: 200px;
+    justify-content: center;
+    margin: 2% auto;
+    padding: 20px;
 }
 
-#heading{
-    width: 40%;
-    margin: 1%;
-    text-align: center;
-    height: fit-content;
-}
-#values{
-    width: 40%;
-    margin: 1%;
-    height: fit-content;
+.row {
+    display: flex;
+    justify-content: center;
     align-items: center;
-
+    width: 100%;
 }
-.para{
-    padding:0.5%;
+
+.para {
+    padding: 10px;
     background-color: rgb(75, 154, 239);
     border-radius: 20px;
-    width: 50%;
-    height: 10%;
-    min-height: 20px;
-    min-width: 110px;
-    margin: 15px auto;
-    box-sizing: border-box;
+    width: 70%;
+    min-height: 40px;
+    margin: 10px auto;
     text-align: center;
+}
+
+#heading,
+#values {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+
+    #city {
+        width: 70%;
+        padding: 12px;
+    }
+
+    #btn {
+        width: 50%;
+        height: 50px;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #heading,
+    #values {
+        width: 45%;
+    }
+
+    .para {
+        width: 90%;
+    }
 }
